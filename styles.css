@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.stopwatch {
+  text-align: center;
+  border: 2px solid #333;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.time-display p {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.controls button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.laps ul {
+  list-style: none;
+  padding: 0;
+}
+
+.laps ul li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+button:hover {
+  background-color: #007bff;
+  color: white;
+}
